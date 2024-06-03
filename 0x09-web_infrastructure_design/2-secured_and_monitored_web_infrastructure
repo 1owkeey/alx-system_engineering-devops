@@ -1,1 +1,21 @@
 https://i.imgur.com/t33iKQB.jpg
+
+
+For every additional element, why you are adding it
+        The infrastructure is enhanced in terms of reliability, performance, security, and scalability, providing a robust foundation for hosting the website www.foobar.com
+What are firewalls for
+        Firewalls play a crucial role in safeguarding networks from unauthorized access, cyber threats, and malicious activities by controlling the flow of traffic and enforcing security policies. 
+Why is the traffic served over HTTPS
+        HTTPS encryption plays a crucial role in securing web communication by providing confidentiality, integrity, authentication, and trust
+What monitoring is used for
+        Monitoring plays a critical role in maintaining the health, performance, security, and compliance of technology systems and business operations. 
+How the monitoring tool is collecting data
+        Monitoring tools utilize one or more of these data collection methods to gather performance metrics, system statistics, logs, events, and other relevant data from the monitored environment. 
+Explain what to do if you want to monitor your web server QPS
+        Effectively monitor the Query Per Second (QPS) of your web server and gain valuable insights into its performance, helping you ensure optimal operation and responsiveness for your users.
+Why terminating SSL at the load balancer level is an issue
+        Overall, while terminating SSL at the load balancer level can offer performance benefits and offload SSL decryption from backend servers, it also introduces security risks, compliance concerns, and complexities that need to be carefully considered and mitigated.
+Why having only one MySQL server capable of accepting writes is an issues
+        To address these issues, organizations should implement strategies for database replication, clustering, or sharding to distribute write operations across multiple MySQL servers, improve fault tolerance, and enhance scalability.
+Why having servers with all the same components (database, web server and application server) might be a problem
+        To mitigate these challenges, organizations can consider adopting a more heterogeneous infrastructure approach, where servers are tailored to specific roles or components based on their requirements.
