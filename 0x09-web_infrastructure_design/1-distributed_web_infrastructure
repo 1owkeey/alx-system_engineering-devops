@@ -1,1 +1,19 @@
 https://i.im.ge/2022/08/21/OU3RB9.1-distributed-web-infrastructure.jpg
+
+
+For every additional element, why you are adding it
+        To enhance the infrastructure and to handle more traffic, provide better fault tolerance, and improve performance.
+What distribution algorithm your load balancer is configured with and how it works
+        The Round Robin algorithm provides a straightforward and effective method for distributing traffic evenly across multiple servers, making it a good fit for this simple web infrastructure setup.
+Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
+        By choosing an Active-Active setup, the infrastructure is designed to provide robust performance, high availability, and scalability, making it well-suited for handling varying traffic loads and ensuring continuous service availability
+How a database Primary-Replica (Master-Slave) cluster works
+        A Primary-Replica (Master-Slave) database cluster is an effective way to distribute database load, improve read performance, provide redundancy, and ensure high availability. It involves one primary node handling writes and multiple replicas handling reads, with data changes being propagated asynchronously from the primary to the replicas.
+What is the difference between the Primary node and the Replica node in regard to the application
+        The primary node is the authoritative source for all write operations and maintains the most up-to-date data. The replica nodes, on the other hand, are optimized for read operations and help distribute the load, but may serve slightly stale data due to asynchronous replication. 
+Single Points of Failure (SPOF)
+        Implement redundant load balancers.
+Security Issues
+        Implement a firewall to protect the network. 
+        Use HTTPS to encrypt data transmission.
+        No Monitoring Implement comprehensive monitoring tools to track infrastructure health, performance, and security in real-time.

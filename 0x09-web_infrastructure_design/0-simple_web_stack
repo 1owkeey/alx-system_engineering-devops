@@ -1,1 +1,23 @@
 https://i.im.ge/2022/08/21/OU3M9z.My-First-Board.jpg
+
+
+What is a server
+        A server is a critical component in the infrastructure of a network, providing services, data, and resources to client devices, enabling the smooth operation of web applications, databases, and various other online services.
+What is the role of the domain name
+        It allows users to access the website without needing to remember the numeric IP address.
+What type of DNS record www is in www.foobar.com
+        The www record is a CNAME (Canonical Name) or an A record pointing to the IP address 8.8.8.8.
+What is the role of the web server
+        This record maps the subdomain www to the server's IP address.
+What is the role of the application server
+        The application server runs the application code.
+What is the role of the database
+        It manages data storage, indexing, querying, and transaction processing.
+What is the server using to communicate with the computer of the user requesting the website
+        The server communicates with the user's computer over the internet using the HTTP/HTTPS protocol.
+Single Point of Failure (SPOF)
+        The entire system relies on one server. If the server fails, the website becomes unavailable.
+Downtime During Maintenance
+        Deploying new code or restarting the web server (Nginx) requires downtime, making the website temporarily unavailable to users.
+Scalability
+        The single server setup cannot handle a significant increase in traffic.
